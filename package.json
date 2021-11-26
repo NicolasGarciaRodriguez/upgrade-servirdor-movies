@@ -1,0 +1,28 @@
+{
+  "name": "upgrade-servirdor-movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "devStart": "nodemon main.js",
+    "db-init": "node seeds/peliculas.seeds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasGarciaRodriguez/upgrade-servirdor-movies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasGarciaRodriguez/upgrade-servirdor-movies/issues"
+  },
+  "homepage": "https://github.com/NicolasGarciaRodriguez/upgrade-servirdor-movies#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
